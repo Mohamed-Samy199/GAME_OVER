@@ -1,0 +1,54 @@
+$backGround : rgb(39,43,48);
+$lighColor : #eee;
+$colorText : #aaa;
+$boxColoe : #32383e;
+
+body{
+    background: $backGround;
+    color: $colorText;
+}
+
+a{
+    color: $colorText !important;
+}
+a:hover , a.active{
+    color: $lighColor !important;
+}
+.dropdown-item.active , .dropdown-item{
+    color: #000 !important;
+    background-color: transparent !important;
+}
+.dropdown-item:hover{
+    color: #000 !important;
+    background-color: $lighColor !important;
+}
+.brder{
+    background-color: $boxColoe;
+    height: 1.5px;
+}
+.carousel-inner{
+    height: 35vh;
+}
+.carousel-indicators{
+    display: none;
+}
+.search-form{
+    border-radius: .5rem 0 0 .5rem;
+}
+.search{
+    border-radius: 0 .5rem .5rem 0;
+}
+.watch{
+    z-index: 100;
+}
+.height{
+    height: 40vh;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.source{
+    width: 100px;
+}
